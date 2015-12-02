@@ -55,6 +55,14 @@
             // Maximum, extension generic method
             Print(genericList.Maximum(), "Find max element");
 
+            // Foreaching through elements
+            Console.WriteLine("Foreaching through elements");
+            foreach (var item in genericList)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+
             // New generic list of DateTime
             IGenericList<DateTime> dates = new GenericList<DateTime>();
             dates.Add(DateTime.MaxValue);
