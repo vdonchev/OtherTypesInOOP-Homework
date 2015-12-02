@@ -52,7 +52,7 @@
             genericList.Add(-5);
             Print(genericList.Minimum(), "Find min element");
 
-            //Maximum, extension generic method
+            // Maximum, extension generic method
             Print(genericList.Maximum(), "Find max element");
 
             // New generic list of DateTime

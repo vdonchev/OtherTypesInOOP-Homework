@@ -54,9 +54,7 @@
             {
                 throw new ArgumentOutOfRangeException(
                     title,
-                    string.Format(
-                        CanBeNegative,
-                        title));
+                    string.Format(CanBeNegative, title));
             }
         }
     }

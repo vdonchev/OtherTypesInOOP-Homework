@@ -41,7 +41,7 @@
         {
             try
             {
-                var newNumeartor = checked(a.Numerator * b.Denominator + a.Denominator * b.Numerator);
+                var newNumeartor = checked((a.Numerator * b.Denominator) + (a.Denominator * b.Numerator));
                 var newDenominator = checked(a.Denominator * b.Denominator);
                 return new Fraction(newNumeartor, newDenominator);
             }
@@ -58,7 +58,7 @@
         {
             try
             {
-                var newNumeartor = checked(a.Numerator * b.Denominator - a.Denominator * b.Numerator);
+                var newNumeartor = checked((a.Numerator * b.Denominator) - (a.Denominator * b.Numerator));
                 var newDenominator = checked(a.Denominator * b.Denominator);
 
                 return new Fraction(newNumeartor, newDenominator);
@@ -71,7 +71,6 @@
                         "Substraction"));
             }
         }
-
 
         public override string ToString()
         {

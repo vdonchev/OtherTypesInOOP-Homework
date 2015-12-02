@@ -6,6 +6,8 @@
 
         int Size { get; }
 
+        T this[int index] { get; set; }
+
         void Add(T item);
 
         void RemoveAt(int index);
@@ -17,8 +19,6 @@
         int GetIndex(T item);
 
         bool Contains(T item);
-
-        T this[int index] { get; set; }
 
         string Version();
     }

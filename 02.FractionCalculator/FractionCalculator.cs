@@ -18,7 +18,6 @@
                 var fractionOnTheLimit = new Fraction(long.MaxValue, 2);
                 var result2 = fractionOnTheLimit + fraction1;
             }
-
             catch (Exception ex) when (ex is ArgumentOutOfRangeException
                                     || ex is ArgumentException
                                     || ex is InvalidOperationException)
