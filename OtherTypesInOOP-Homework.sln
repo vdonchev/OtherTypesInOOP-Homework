@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.GalacticGPS", "01.GalacticGPS\01.GalacticGPS.csproj", "{010E4F7C-6BBB-4A7A-8E98-795431E89121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.FractionCalculator", "02.FractionCalculator\02.FractionCalculator.csproj", "{067DD05B-0999-44D2-A898-48B21B5D7162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.GenericList", "03.GenericList\03.GenericList.csproj", "{C286D910-9E1B-4BF8-AE49-38AC7B413890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.GenericListVersion", "04.GenericListVersion\04.GenericListVersion.csproj", "{9BA41EF7-E3BB-4AC7-AD7E-3D45BD1A86AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010E4F7C-6BBB-4A7A-8E98-795431E89121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010E4F7C-6BBB-4A7A-8E98-795431E89121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010E4F7C-6BBB-4A7A-8E98-795431E89121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010E4F7C-6BBB-4A7A-8E98-795431E89121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067DD05B-0999-44D2-A898-48B21B5D7162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067DD05B-0999-44D2-A898-48B21B5D7162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067DD05B-0999-44D2-A898-48B21B5D7162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067DD05B-0999-44D2-A898-48B21B5D7162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C286D910-9E1B-4BF8-AE49-38AC7B413890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C286D910-9E1B-4BF8-AE49-38AC7B413890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C286D910-9E1B-4BF8-AE49-38AC7B413890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C286D910-9E1B-4BF8-AE49-38AC7B413890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA41EF7-E3BB-4AC7-AD7E-3D45BD1A86AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA41EF7-E3BB-4AC7-AD7E-3D45BD1A86AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA41EF7-E3BB-4AC7-AD7E-3D45BD1A86AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA41EF7-E3BB-4AC7-AD7E-3D45BD1A86AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
