@@ -6,7 +6,7 @@
     using System.Linq;
     using Attributes;
 
-    [Version(1,00)]
+    [Version(0,2122015)]
     public class GenericList<T> : IGenericList<T>, IEnumerable<T>
     {
         private const string OutOfRangeMessage =

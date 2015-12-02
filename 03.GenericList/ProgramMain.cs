@@ -1,6 +1,7 @@
 ﻿namespace _03.GenericList
 {
     using System;
+    using System.Collections.Generic;
 
     public static class ProgramMain
     {
@@ -74,8 +75,7 @@
         private static void Print<T>(IGenericList<T> genericList, string title = "Generic List")
         {
             Console.WriteLine(
-                "-> "
-                + title
+                "-> " + title
                 + Environment.NewLine
                 + genericList
                 + Environment.NewLine);
@@ -84,8 +84,7 @@
         private static void Print<T>(T item, string title = "Print")
         {
             Console.WriteLine(
-                "-> "
-                + title
+                "-> " + title
                 + Environment.NewLine
                 + item
                 + Environment.NewLine);

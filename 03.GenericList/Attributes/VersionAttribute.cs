@@ -43,7 +43,7 @@
 
             private set
             {
-                IsNotNegative(value, "Major");
+                IsNotNegative(value, "Minor");
                 this.minor = value;
             }
         }
