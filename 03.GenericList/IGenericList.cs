@@ -10,6 +10,8 @@
 
         void Add(T item);
 
+        void Insert(int index, T item);
+
         void RemoveAt(int index);
 
         void AddRange(params T[] items);

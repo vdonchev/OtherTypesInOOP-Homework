@@ -7,7 +7,7 @@
     {
         public static void Main()
         {
-            GenericList<int> genericList = new GenericList<int>(5) { 1, 2, 3, 100 };
+            GenericList<int> genericList = new GenericList<int>() { 1, 2, 3, 100 };
             Print(genericList, "New GenericList");
 
             // Clear
@@ -17,18 +17,23 @@
             // Add
             genericList.Add(1);
             genericList.Add(3);
+            genericList.Add(8);
             genericList.Add(69);
-            Print(genericList, "Add // 1, 3, 69");
+            Print(genericList, "Add // 1, 3, 8, 69");
+
+            // Insert on specific index
+            genericList.Insert(0, 5);
+            Print(genericList, "Insert at index // 0 -> 5");
 
             // Remove by index
-            genericList.RemoveAt(2); // will remove 69
-            Print(genericList, "RemoveAt // index 2");
+            genericList.RemoveAt(4); // will remove 69
+            Print(genericList, "RemoveAt // index 4");
 
             // Add range
             genericList.AddRange(100, 200, 300, 400);
             Print(genericList, "Add range // 100, 200, 300, 400");
 
-            // Insert on specific index
+            // Add on specific index
             genericList[0] = 69;
             Print(genericList, "Insert at index // 0");
 
@@ -48,7 +53,7 @@
 
             // Show size
             Print(genericList.Size, "Collection size");
-            
+
             // Minimum, extension generic method
             genericList.Add(-5);
             Print(genericList.Minimum(), "Find min element");

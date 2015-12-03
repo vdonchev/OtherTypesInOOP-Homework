@@ -62,6 +62,28 @@
             this.currentIndex++;
         }
 
+        public void Insert(int index, T item)
+        {
+            if (this.currentIndex == 0)
+            {
+                this.Add(item);
+                return;
+            }
+
+            if (this.currentIndex >= this.Capacity - 1)
+            {
+                this.IncreaseCapacity();
+            }
+
+            for (int i = this.currentIndex; i > index; i--)
+            {
+                this.internalStorage[i] = this.internalStorage[i - 1];
+            }
+
+            this.internalStorage[index] = item;
+            this.currentIndex++;
+        }
+
         public void RemoveAt(int index)
         {
             this.ValidateIndex(index);
