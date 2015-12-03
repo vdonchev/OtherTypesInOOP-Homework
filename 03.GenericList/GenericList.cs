@@ -64,11 +64,13 @@
 
         public void Insert(int index, T item)
         {
-            if (this.currentIndex == 0)
+            if (this.currentIndex == index)
             {
                 this.Add(item);
                 return;
             }
+
+            this.ValidateIndex(index);
 
             if (this.currentIndex >= this.Capacity - 1)
             {

@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
 
     public static class ProgramMain
     {
@@ -22,7 +23,7 @@
             Print(genericList, "Add // 1, 3, 8, 69");
 
             // Insert on specific index
-            genericList.Insert(0, 5);
+            genericList.Insert(4, 5);
             Print(genericList, "Insert at index // 0 -> 5");
 
             // Remove by index
@@ -68,6 +69,8 @@
                 Console.WriteLine(item);
             }
             Console.WriteLine();
+
+            Console.WriteLine(genericList.Average());
 
             // New generic list of DateTime
             IGenericList<DateTime> dates = new GenericList<DateTime>();
