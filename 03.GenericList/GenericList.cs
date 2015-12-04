@@ -3,7 +3,6 @@
     using System;
     using System.Collections;
     using System.Collections.Generic;
-    using System.Linq;
     using Attributes;
 
     [Version(0,2122015)]
@@ -159,10 +158,7 @@
 
         public override string ToString()
         {
-            return
-                this.currentIndex == 0
-                ? $"Empty GenericList<{typeof(T)}>"
-                : $"[{string.Join(", ", this.internalStorage.Take(this.currentIndex))}]";
+            return $"[{(this.Size > 0 ? string.Join(", ", this) : "")}]";
         }
         
         public string Version()
